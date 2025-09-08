@@ -1,0 +1,13 @@
+[project]
+name = "kouranki-translator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "translate",
+    "pykakasi",
+]
+
+[tool.setuptools]
+packages = { find = { where = "src" } }
